@@ -1,0 +1,40 @@
+.fondo{
+    background-image: url("/img/bg-inicio.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    height: 33.33vh;
+}
+.logo{
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    color: white;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.boton{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.span h5{
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
