@@ -1,5 +1,5 @@
 .fondo{
-    background-image: url("/img/bg-inicio.jpg");
+    background-image: url(/img/bg-inicio.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
