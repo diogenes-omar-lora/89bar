@@ -8,7 +8,7 @@
     --negro:#000;
 }
 .fondo{
-    background-image: url(/img/bg-start.jpg);
+    background: url(../img/bg-start.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
