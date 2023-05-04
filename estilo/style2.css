@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'raleway', sans-serif;
+}
+:root{
+    --rojo: #E30823;
+    --negro:#000;
+}
+.logo img{
+    margin-top: -55px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    border-radius: 100%;
+    border: solid 5px rgb(235, 4, 50);
+}
+.form-box{
+    position: relative;
+    width: 330px;
+    height: 470px;
+    background-color: #F4F3F3;
+    border-radius: 40px;
+    padding: 20px;
+    overflow: hidden;
+}
+.button-box{
+    display: flex;
+    justify-content: space-around;
+    width: 240px;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #e0e0e0;
+    border-radius: 30px;
+
+}
+.toggle-btn{
+    position: relative;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #D9D9D9;
+    font-weight: 600;
+
+}
+#elegir{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    border-radius: 30px;
+
+    background: var(--rojo);
+    transition: all 0.8s;
+}
+.input-group{
+    position: absolute;
+    width: 280px;
+    transition: all 0.8s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999999;
+    background: transparent;
+}
+.submit-btn{
+    width: 90%;
+    border-radius: 30px;
+    padding: 5px 30px;
+    background: var(--rojo);
+    color: #D9D9D9;
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+#signup{
+    left: 450px;
+    top: -310px;
+}
