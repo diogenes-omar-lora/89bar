@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'raleway', sans-serif;
+}
+:root{
+    --rojo: #E30823;
+    --negro:#000;
+}
+.logo{
+    position: relative;
+    background-image: url(../img/logofood89.png);
+    width: 100%;
+    height: 70px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    border: solid 4px var(--rojo);
+}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35.5vh;
+    border-radius: 0 0 50% 50%;
+
+    background-image: url(../img/bg-login.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+
+}
+.banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 35.5vh;
+    border-radius: 0 0 60% 60%;
+
+    background: linear-gradient(var(--rojo) , var(--negro) 50%);
+    opacity: 0.6;
+}
+.title h2{
+    width: 276px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold ;
+}
+.search{
+    width: 260px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: none;
+}
+/* scroll */
+/* .producto{
+    display: flex;
+    overflow: hidden;
+    scroll-snap-type: mandatory;
+  } */
+  .wrapper .carrousel{
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  /* card */
+  .plato{
+    flex: 0 0 155px;
+    scroll-snap-align: start;
+    position: relative;
+    background:white;
+    width:155px;
+    height: 228px;
+    border-radius: 25px;
+    margin: 0 10px 0px 10px;
+  }
+  .plato::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 155px;
+    height: 121px;
+    border-radius: 25px 25px 50px 0;
+    background: linear-gradient(var(--rojo), var(--negro));
+    opacity: 0.9;
+  }
+  .img img{
+    position: relative;
+    width: 100%;
+    height: 121px;
+  }
+  .detalles .nameprod{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .detalles .precio{
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  .botn{
+    display: flex;
+    justify-content: center;
+  }
+  .botn .save{
+    background: var(--rojo);
+    width: 88px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+  }
+  /* menu */
+  .menu ul{
+    padding: 0;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+  }
+  .menu li{
+    /* padding: 0 20px; */
+    padding-right: 22px;
+    scroll-snap-align: start;
+    list-style: none;
+  }
