@@ -24,7 +24,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 35.5vh;
+    height: 40.5vh;
     border-radius: 0 0 50% 50%;
 
     background-image: url(../img/bg-login.jpg);
@@ -41,7 +41,7 @@
     left: 0;
 
     width: 100%;
-    height: 35.5vh;
+    height: 40.5vh;
     border-radius: 0 0 60% 60%;
 
     background: linear-gradient(var(--rojo) , var(--negro) 50%);
@@ -50,22 +50,32 @@
 .title h2{
     width: 276px;
     color: white;
-    font-size: 25px;
+    font-size: 32px;
     font-weight: bold ;
 }
 .search{
-    width: 260px;
+    width: 305px;
     height: 45px;
     border-radius: 25px;
     padding-left: 10px;
     border: none;
-}
-/* scroll */
-/* .producto{
+  }
+  /* menu */
+  .menu ul{
+    padding: 0;
+    margin-top: 70px;
     display: flex;
-    overflow: hidden;
+    overflow-x: scroll;
     scroll-snap-type: mandatory;
-  } */
+  }
+  .menu li{
+    /* padding: 0 20px; */
+    padding-right: 22px;
+    scroll-snap-align: start;
+    list-style: none;
+  }
+/* scroll */
+
   .wrapper .carrousel{
     display: flex;
     cursor: pointer;
@@ -121,18 +131,7 @@
     border-radius: 25px;
     color: white;
   }
-  /* menu */
-  .menu ul{
-    padding: 0;
-    margin-top: 70px;
-    display: flex;
-    align-items: center;
-    overflow-x: scroll;
-    scroll-snap-type: mandatory;
-  }
-  .menu li{
-    /* padding: 0 20px; */
-    padding-right: 22px;
-    scroll-snap-align: start;
-    list-style: none;
-  }
+/* home */
+.home{
+  color: #E30823;
+}
